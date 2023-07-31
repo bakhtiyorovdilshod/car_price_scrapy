@@ -17,7 +17,9 @@ class AutoelonSpider(scrapy.Spider):
             # "//*[@id=advert-3726720]/div/div[1]/span/text()"
             # "//*[@id="advert-3726720"]/div/div[1]/span/text()"
             div = car.xpath("//div[@class='a-info-side col-right-list']")
-            title = div.xpath("//span[@class='a-el-info-title']//a//text()").get()
+            # title = div.xpath("//span[@class='a-el-info-title']//a//text()").get()
+            title = div.xpath(f'//*[@id="{id}"]/div/div[1]/div/span[1]/a//text()').get()
+
             price = div.xpath(f'//*[@id="{id}"]/div/div[1]/span/text()').get()
             year = div.xpath(f'//*[@id="{id}"]/div/div[2]/div/span/text()').get()
             description = div.xpath(f'//*[@id="{id}"]/div/div[2]/div/text()').get()
