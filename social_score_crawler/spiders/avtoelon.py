@@ -4,8 +4,7 @@ import scrapy
 class AutoelonSpider(scrapy.Spider):
     name = "avtoelon"
     allowed_domains = ["avtoelon.uz"]
-    start_urls = ['https://avtoelon.uz/uz/avto/']
-    # "https://avtoelon.uz/uz/avto/",
+    start_urls = ['https://avtoelon.uz/uz/avto/chevrolet/']
     def parse(self, response):
         print('hello')
 
