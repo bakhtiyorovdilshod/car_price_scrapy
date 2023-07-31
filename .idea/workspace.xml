@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9784af0f-1a22-4340-8f75-691c6177900c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cars.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/social_score_crawler/spiders/avtoelon.py" beforeDir="false" afterPath="$PROJECT_DIR$/social_score_crawler/spiders/avtoelon.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chevrolet_cars.csv" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +37,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -48,7 +52,9 @@
       <updated>1690677524529</updated>
       <workItem from="1690677525775" duration="5469000" />
       <workItem from="1690779034251" duration="3229000" />
-      <workItem from="1690794607370" duration="678000" />
+      <workItem from="1690794607370" duration="1274000" />
+      <workItem from="1690826089744" duration="856000" />
+      <workItem from="1690827735122" duration="95000" />
     </task>
     <servers />
   </component>
